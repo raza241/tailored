@@ -1,0 +1,121 @@
+@media screen and (max-width:1025px){
+	.nav-holder{
+		max-width:768px;
+	}
+	.nav-holder ul li a{
+		padding: 15px 45px;
+	}
+	.discription{
+		max-width:768px;
+	}
+	.discription .classes{
+		max-width:233px;
+	}
+	.footer-holder{
+		max-width:768px;
+	}
+	.footer-holder .detail{
+		padding:60px 8px;
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+}
+@media screen and (max-width:767px){
+	.header-holder .logo{
+		max-width:100%;
+		float:none;
+		text-align:center;
+	}
+	.header-holder .right-header{
+		float:none;
+		text-align:center;
+	}
+	
+	.header-holder .right-header .ping-ann .ping-icon{
+		max-width:26px;
+	}
+	.header-holder .right-header .ping-ann .text strong {
+		font-size:12px;
+	}
+	.header-holder .right-header .image{
+		max-width:75px;
+	}
+	.menu-trigger{
+		display:block;
+		background:url(../images/nav-icon.png) no-repeat 95% 50%;
+		color:#fff;
+		font-size:30px;
+		text-align:center;
+		border-bottom:2px solid #f2616f;
+		height:60px;
+	}
+	.nav-holder{display:none;}
+	.nav-holder ul li{
+		float:none;
+		border:none;
+	}
+	.nav-holder ul li a{
+		text-align:center;
+		border-bottom:1px solid #f2616f;
+	}
+	.nav-holder ul li a:hover{
+		box-shadow: inset 0px 0px 39px -8px rgba(0,0,0,0.23);
+		border-bottom:1px solid #f2616f;
+	}
+	.text-area span{
+		font-size: 24px
+	}
+	.text-area strong{
+		font-size: 25px;
+	}
+	.discription-image{
+		max-width:100%;
+		float:none;
+	}
+	.discription .detail{
+		max-width:100%;
+		text-align:center;
+		margin: 15px 0 0;
+	}
+	.weekly-deals .desktop{display:none;}
+	.weekly-deals .mobile{
+		display:block;
+		width:100%;
+		height:auto;
+	}
+	.discription .classes{
+		max-width:100%;
+		display:block;
+		margin:0 0 20px;;
+		text-align:center;
+	}
+	.contact .holder{
+		text-align:center;
+	}
+	.contact .holder:after{
+		background:none;
+	}
+	.contact .holder .fitness{
+		max-width:100%;
+	}
+	.contact .holder .fitness a{
+		margin:0;
+		padding:15px 5px;
+	}
+	.contact .holder .image{
+		float: none;
+		margin: -176px 0 0 75px;
+	}
+
+	.footer-holder .detail{
+		float:none;
+		max-width:100%;
+		text-align:center;
+		border-right:none;
+	}
+	.footer-holder .detail ul{
+		max-width:230px;
+		margin:30px auto 0;
+	}
+}
